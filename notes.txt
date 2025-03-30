@@ -1,0 +1,39 @@
+🐍 Python Basics Notes
+🔹 1. Python Introduction & Installation
+✅ What is Python?
+Python is an interpreted, high-level, dynamically typed programming language.
+
+It is widely used for web development, data science, automation, AI, and more.
+
+✅ Installing Python:
+Download from python.org
+Install and ensure python is added to PATH.
+
+Check version:
+python --version
+🔹 2. Python IDLE & Shell
+✅ What is Python IDLE?
+IDLE (Integrated Development and Learning Environment) is Python’s built-in lightweight development environment.
+You can write, edit, and run Python scripts in it.
+
+>>> print("Hello, Python!")
+Hello, Python!
+To exit:
+exit()  # or press Ctrl + Z (Windows) or Ctrl + D (Mac/Linux)
+
+🔹 3. Python File Execution (.py Scripts)
+Write Python code in a .py file.
+Run the script from the terminal:
+
+python my_script.py
+🔹 4. Understanding __pycache__
+✅ What is __pycache__?
+Python automatically compiles scripts into bytecode (.pyc files) to speed up execution.
+Compiled files are stored in a __pycache__ directory.
+
+✅ How it works?
+Run a Python script (example.py).
+
+Python compiles it into bytecode (.pyc).
+
+The bytecode is saved inside __pycache__/.
