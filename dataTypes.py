@@ -43,9 +43,10 @@ print(tuple(r))
 set = {1, 2, 3, 4, 5, 2, 3, 4, 4}
 print(set)  # shows unique values
 
-# 5. Mapping Type 
+# 5. Mapping Type
 # dict → Dictionary (key-value pairs)
 import json
+
 person = [
     {"name": "John", "age": 25},
     {"name": "John", "age": 25},
@@ -55,5 +56,4 @@ person = [
     {"name": "John", "age": 25},
 ]
 
-print(json.dumps(person, indent = 2)) # Pretty print JSON
-
+print(json.dumps(person, indent=2))  # Pretty print JSON
