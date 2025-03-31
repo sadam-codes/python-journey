@@ -28,7 +28,8 @@ name = "sadam"
 print(f"The type of name is :{type(name)}")
 
 # list → Ordered, mutable collection
-sections = ["A", "B", "C", "D"]
+sections = ["A", "B", "C", "D", ["aa", "bb", "cc", "dd"]]
+print(sections)
 print(f"The type of sections is :{type(sections)}")
 
 # range → Generates a sequence of numbers
@@ -48,12 +49,12 @@ print(set)  # shows unique values
 import json
 
 person = [
-    {"name": "John", "age": 25},
-    {"name": "John", "age": 25},
-    {"name": "John", "age": 25},
-    {"name": "John", "age": 25},
-    {"name": "John", "age": 25},
-    {"name": "John", "age": 25},
+    {"name": "Sadam", "age": 22},
+    {"name": "Ali", "age": 22},
+    {"name": "Ahmad", "age": 22},
+    {"name": "Hasnain", "age": 22},
+    {"name": "Hamza", "age": 22},
+    {"name": "Mateen", "age": 22},
 ]
 
 print(json.dumps(person, indent=2))  # Pretty print JSON
